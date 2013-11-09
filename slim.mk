@@ -1,5 +1,8 @@
 $(call inherit-product, device/htc/m7ul/full_m7ul.mk)
 
+$(call inherit-product, vendor/slim/config/gsm.mk)
+
+# Enhanced NFC
 $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
